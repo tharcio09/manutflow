@@ -17,5 +17,5 @@ export function AppHeader() {
                 </span>
             </div>
         </header>
-    )
+    );
 }
