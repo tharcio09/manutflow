@@ -1,9 +1,10 @@
-import { StatusCard } from "@/components/ui/status-card";
+import { AppHeader } from "@/components/layout/app-header";
 import { DashboardOverview } from "@/features/dashboard/dashboard-overview";
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-slate-950 text-slate-100">
+      <AppHeader />
       <section className="mx-auto flex min-h-screen max-w-5xl flex-col justify-center px-6 py-12">
         <div className="text-center">
           <p className="mb-4 inline-flex rounded-full border border-slate-700 px-4 py-2 text-sm text-slate-300">
@@ -20,7 +21,8 @@ export default function Home() {
             atendimento.
           </p>
         </div>
-        <DashboardOverview/>
+        <DashboardOverview />
+
       </section>
     </main>
   );
